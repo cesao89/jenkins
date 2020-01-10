@@ -111,3 +111,14 @@ chmod
 chmod 400 remote-key 
 ssh -i remote-key remote_user@remote_host
 ansible -i hosts -m ping test1
+cd 
+cd ansible/
+ls
+ansible-playbook -i hosts play.yml 
+cd
+cd ansible/
+ls -l
+cd
+cd ansible/
+ansible-playbook -i hosts play.yml 
+pwd
