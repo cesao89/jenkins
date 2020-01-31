@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-01-31 13:06:28.619 UTC</timestamp>
+  <md5sum>49030aed70b9689d9c0fc3b43f0c95ee</md5sum>
+  <fileName>Credential id=c35a82ca-0a9d-40a2-848f-e23968395311 name=jenkins-server</fileName>
+  <usages>
+    <entry>
+      <string>maven-job</string>
+      <ranges>17-21</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

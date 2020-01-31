@@ -1,0 +1,17 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins5000176159468279591.sh
++ echo BUILD_NUMBER for this is 5
+BUILD_NUMBER for this is 5
++ echo BUILD_ID for this is 5
+BUILD_ID for this is 5
++ echo BUILD_URL for this is http://jenkins.local:8080/job/ENV/5/
+BUILD_URL for this is http://jenkins.local:8080/job/ENV/5/
++ echo JOB_NAME is ENV
+JOB_NAME is ENV
++ echo NAME_OF_THE_COURSE is Jenkins-course
+NAME_OF_THE_COURSE is Jenkins-course
++ echo COUNTRY is Brazil
+COUNTRY is Brazil
+Finished: SUCCESS

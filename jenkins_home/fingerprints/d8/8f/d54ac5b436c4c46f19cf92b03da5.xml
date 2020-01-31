@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-01-31 12:49:29.47 UTC</timestamp>
+  <md5sum>d88fd54ac5b436c4c46f19cf92b03da5</md5sum>
+  <fileName>Credential id=636565c4-1d32-4b35-918a-67d2c19080ad name=github</fileName>
+  <usages>
+    <entry>
+      <string>maven-job</string>
+      <ranges>14</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

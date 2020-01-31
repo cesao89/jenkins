@@ -1,0 +1,11 @@
+commit 50fe343d5114225938965ecd62e07550dfba18a8
+tree 7b73794b43ad6c0d254a3d7b5fb50ba5b4d11110
+parent b1c7f06ce9d3c1c6bc1e3b542b723ef015d31a62
+author Cesar Domingos <cesar.domingos@fs.com.br> 2020-01-31 14:06:06 -0300
+committer Cesar Domingos <cesar.domingos@fs.com.br> 2020-01-31 14:06:06 -0300
+
+    Test git hook trigger
+
+
+:100644 100644 5a6d57214d17ba7484046928cf2e933ec550b50a 2d908bcc3eacb38daa90dddbe5ae3422981cf0a8 M	src/main/java/com/mycompany/app/App.java
+:100644 100644 908bac851aef9be99dcc57a0efb36dc514d4e5ca 37bdb650fae4d3a1c5645237b94cbbc53a6015a6 M	src/test/java/com/mycompany/app/AppTest.java

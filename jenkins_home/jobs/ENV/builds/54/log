@@ -1,0 +1,17 @@
+Started by user [8mha:////4LeTiZJx9UeL1jBAgHtOTt4hhA3qqexcE4/j3zpuiMl1AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mJenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ENV
+[ENV] $ /bin/sh -xe /tmp/jenkins4426160969222212148.sh
++ echo BUILD_NUMBER for this is 54
+BUILD_NUMBER for this is 54
++ echo BUILD_ID for this is 54
+BUILD_ID for this is 54
++ echo BUILD_URL for this is http://jenkins.local:8080/job/ENV/54/
+BUILD_URL for this is http://jenkins.local:8080/job/ENV/54/
++ echo JOB_NAME is ENV
+JOB_NAME is ENV
++ echo NAME_OF_THE_COURSE is Jenkins-course
+NAME_OF_THE_COURSE is Jenkins-course
++ echo COUNTRY is Brazil
+COUNTRY is Brazil
+Finished: SUCCESS

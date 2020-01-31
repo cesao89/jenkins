@@ -122,3 +122,103 @@ cd
 cd ansible/
 ansible-playbook -i hosts play.yml 
 pwd
+ssh web
+mv ~/.ssh/known_hosts ~/.ssh/known_hosts.old
+ssh web
+web
+ssh
+ssh db
+ssh test1
+cd ~/.ssh
+ls -l
+ls
+mv known_hosts.old known_hosts
+ssh test1
+ssh db
+ssh -i remote-key remote_user@web
+ssh we
+ssh web
+pwd
+cd /var/jenkins_home/
+ls -la
+cd ansible/
+cat hosts 
+ssh web
+service ssh status
+sudo service ssh status
+ssh -i remote-key remote_user@remote_host
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@web1
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@web
+cat ~/.ssh/known_hosts 
+web
+ping web
+ssh -i remote-key remote_user@web
+ls
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@remote_host
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@web
+cd /var/jenkins_home/ansible/
+ls -la
+ls -la
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@remote_host
+ssh test1
+ansible -i hosts -m ping test1
+ansible -i hosts -m ping web1
+
+ansible -i hosts -m ping web1
+ansible -i hosts -m ping web1
+ansible -i hosts -m ping web1
+ls -l remote-key 
+ls -la
+ssh -i remote-key remote_user@web
+curl web
+curl web:8080
+curl web:22
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@web:2222
+ssh -i remote-key remote_user@web:22
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@web
+cd ~/workspace/
+ls -la
+cd maven-job/
+ls -la
+cd target/
+ls -la
+cd ..
+cat pom.xml 
+java -jar /var/jenkins_home/workspace/maven-job/target/my-app-1.0-SNAPSHOT.jar
+cat /var/jenkins_home/workspace/maven-job/target/surefire-reports
+cat /var/jenkins_home/workspace/maven-job/target/surefire-reports/TEST-com.mycompany.app.AppTest.xml 
+cat /var/jenkins_home/workspace/maven-job/target/surefire-reports/com.mycompany.app.AppTest.txt 
+ls -la
+ls
+ls target/surefire-reports/*.xml
+ks
+ls target/my-app-1.0-SNAPSHOT.jar 
+ls target/*.jar
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+ls -la
+sudo -su jenkins
+sh-keygen
+ssh-keygen
+cat /var/jenkins_home/.ssh/id_rsa
+ssh-keygen
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+cat /var/lib/jenkins/.ssh/id_rsa.pub
+cat /var/jenkins_home/.ssh/id_rsa.pub 
+ls -la /var/jenkins_home/.ssh/
+cat /var/jenkins_home/.ssh/id_rsa
+ls -la
+cd /var/jenkins_home/.ssh
+ls -la
+rm -rf id_rsa
+rm -rf id_rsa.pub 
+ls -la
