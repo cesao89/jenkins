@@ -1,0 +1,40 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<javaposse.jobdsl.plugin.DescriptorImpl plugin="job-dsl@1.76">
+  <templateJobMap class="com.google.common.collect.HashMultimap" serialization="custom">
+    <com.google.common.collect.HashMultimap>
+      <default/>
+      <int>8</int>
+      <int>0</int>
+    </com.google.common.collect.HashMultimap>
+  </templateJobMap>
+  <generatedJobMap class="concurrent-hash-map">
+    <entry>
+      <string>maven_dsl</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>c33bf5bc6fd98b288e482adf4886df3c</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>ansible-users-db-dsl</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>1e43ebd7f6b1efbfd6776c84401d075f</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>job_dsl_example</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>2c145ca34fc8b3b007a6b20bc6b5f200</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+    <entry>
+      <string>git-job-test-hook</string>
+      <javaposse.jobdsl.plugin.SeedReference>
+        <seedJobName>job-dsl</seedJobName>
+        <digest>96d8f97d71f4e1d7130267a3f2a48a8c</digest>
+      </javaposse.jobdsl.plugin.SeedReference>
+    </entry>
+  </generatedJobMap>
+</javaposse.jobdsl.plugin.DescriptorImpl>

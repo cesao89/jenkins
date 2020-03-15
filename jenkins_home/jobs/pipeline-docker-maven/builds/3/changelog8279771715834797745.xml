@@ -1,0 +1,41 @@
+commit f62b1b71a6b8133c6464b207f862f80173bcd678
+tree 601b2e4b18326f989463543da988b84ec203a296
+parent 9dffd20724cb30adc68ef9a7d2a9bcfa182643a1
+author Cesar Domingos <cesar_web@live.com> 2020-03-15 03:24:51 -0300
+committer Cesar Domingos <cesar_web@live.com> 2020-03-15 03:24:51 -0300
+
+    Fix post action to Jenkinsfile
+
+
+:100644 100644 2700b2010fbdac8da86e7667320e11f871283da5 bdfb854cd19813ca9cd55e2490f932230ea4e7fc M	Jenkinsfile
+commit 9dffd20724cb30adc68ef9a7d2a9bcfa182643a1
+tree ed3186ef1acc029452a9053b4dadaaffc9f99195
+parent 31aa25fa0283e1273a30fd04c5b7347462116907
+author Cesar Domingos <cesar_web@live.com> 2020-03-15 03:06:56 -0300
+committer Cesar Domingos <cesar_web@live.com> 2020-03-15 03:06:56 -0300
+
+    Adds post action to Jenkinsfile
+
+
+:100644 100644 c5de0ee6ad362495d852bdbc1688467d51c231a6 2700b2010fbdac8da86e7667320e11f871283da5 M	Jenkinsfile
+commit 31aa25fa0283e1273a30fd04c5b7347462116907
+tree 3737167f866e9632d42c999f7085fc3fb647b7a4
+parent 5dfd3fe012cf89073e793e97d5c35e9a0a25728e
+author Cesar Domingos <cesar_web@live.com> 2020-03-15 02:57:16 -0300
+committer Cesar Domingos <cesar_web@live.com> 2020-03-15 02:57:16 -0300
+
+    Adds credentials to Jenkinsfile
+
+
+:100644 100644 14b4e5e11b996aff88afee1faffca401da266668 c5de0ee6ad362495d852bdbc1688467d51c231a6 M	Jenkinsfile
+commit 244f6a9af0a673583770a77e0e5cb0e9f379c3e3
+tree 331a0c809058d0760c30748c564d7832410b482b
+parent e3a569de0389009d09a0e2e1b2dcb7f334372267
+author Cesar Domingos <cesar_web@live.com> 2020-03-15 02:48:49 -0300
+committer Cesar Domingos <cesar_web@live.com> 2020-03-15 02:48:49 -0300
+
+    Fixies workspaces path for jobs execution
+
+
+:100755 100755 1cf749187136d877480921b14340876379f68bbf e71a95d18a7588f6a3223efc8829ab7d984f3b53 M	jenkins/build/mvn.sh
+:100755 100755 f08ef487c4ff6bdae9e7c35d63012204db0ef81e e3d2a36ad39c0432887f34c35f57369d6d0425b0 M	jenkins/test/mvn.sh

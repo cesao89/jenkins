@@ -1,0 +1,32 @@
+Started by user [8mha:////4LeTiZJx9UeL1jBAgHtOTt4hhA3qqexcE4/j3zpuiMl1AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mJenkins
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job-dsl
+using credential 516edaee-4933-4888-b3b3-28b4a5d2cdef
+Cloning the remote Git repository
+Cloning repository git@github.com:cesao89/jenkins-dsl-jobs.git
+ > git init /var/jenkins_home/workspace/job-dsl # timeout=10
+Fetching upstream changes from git@github.com:cesao89/jenkins-dsl-jobs.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- git@github.com:cesao89/jenkins-dsl-jobs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:cesao89/jenkins-dsl-jobs.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:cesao89/jenkins-dsl-jobs.git # timeout=10
+Fetching upstream changes from git@github.com:cesao89/jenkins-dsl-jobs.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress -- git@github.com:cesao89/jenkins-dsl-jobs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6f31fe9b234257c879c7a957981d95b560faf891 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6f31fe9b234257c879c7a957981d95b560faf891 # timeout=10
+Commit message: "Test git trigger"
+First time build. Skipping changelog.
+Processing DSL script jobs
+Added items:
+    GeneratedJob{name='git-job-test-hook'}
+Existing items:
+    GeneratedJob{name='ansible-users-db-dsl'}
+    GeneratedJob{name='job_dsl_example'}
+    GeneratedJob{name='maven_dsl'}
+Finished: SUCCESS

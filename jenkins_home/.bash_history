@@ -222,3 +222,151 @@ ls -la
 rm -rf id_rsa
 rm -rf id_rsa.pub 
 ls -la
+ssh -i remote-key remote_user@web
+history
+cd var/jenkins_home/ansible/
+ls -l
+ssh -i remote-key remote_user@web
+ssh -i remote-key remote_user@web
+ssh-keygen -f "/var/jenkins_home/.ssh/known_hosts" -R web
+ssh -i remote-key remote_user@web
+ls -la
+chmod 400 remote-key 
+cat hosts 
+vim hosts 
+vi hosts 
+:q
+exit
+ansible-playbook /var/jenkins_home/ansible/people.yml -i /var/jenkins_home/ansible/hosts -f 5 -e PEOPLE_AGE=20
+vim /var/jenkins_home/ansible/hosts
+cat /var/jenkins_home/ansible/hosts
+cat /var/jenkins_home/ansible/hosts
+cat /var/jenkins_home/ansible/hosts
+ansible-playbook /var/jenkins_home/ansible/people.yml -i /var/jenkins_home/ansible/hosts -f 5 -e PEOPLE_AGE=20
+cat /var/jenkins_home/ansible/hosts
+ansible-playbook /var/jenkins_home/ansible/people.yml -i /var/jenkins_home/ansible/hosts -f 5 -e PEOPLE_AGE=20
+find . -name "ansible.cfg"
+find / -name "ansible.cfg"
+ls -la
+vi /etc/ansible
+ansible
+ansible --version
+ansible all -i tests -m ping
+ansible -m ping all
+ansible -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+getconf PATH_MAX
+getconf
+man getconf
+getconf --
+getconf /var/jenkins_home/.ansible/cp/
+getconf  /var/jenkins_home/.ansible/cp/9be40b63dc.C2lZVvIP97QD4IJs
+getconf PATH_VAR  /var/jenkins_home/.ansible/cp/9be40b63dc.C2lZVvIP97QD4IJs
+getconf -vPATH_VAR  /var/jenkins_home/.ansible/cp/9be40b63dc.C2lZVvIP97QD4IJs
+getconf -v PATH_VAR=/var/jenkins_home/.ansible/cp/9be40b63dc.C2lZVvIP97QD4IJs
+getconf -v PATH_VAR -a /var/jenkins_home/.ansible/cp/9be40b63dc.C2lZVvIP97QD4IJs
+vi  /usr/src/linux-headers-2.6.38-10/include/linux/limits.h
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ssh -i remote-key remote_user@web
+ssh -i /var/jenkins_home/ansible/remote-key remote_user@web
+cat ~/.ssh/known_hosts
+ls -la ~/.ansible/cp/
+ls -la ~/.ansible/
+ls -la ~/.ansible/tmp/
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+cat linux/limits.h
+find . -name "*.h" | xargs grep PATH_MAX
+getconf -v PATH_VAR -a /var/jenkins_home/.ansible/cp/9be40b63dc.C2lZVvIP97QD4IJs
+getconf -v PATH_VAR -a /
+getconf -v PATH_VAR -a / |grep '*_MAX'
+getconf -v PATH_VAR -a / |grep _MAX
+getconf -v PATH_VAR -a / |grep PATH_MAX
+pathconf
+pathconf
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ssh -i /var/jenkins_home/ansible/remote-key remote_user@web
+ls -l
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+ssh-keygen -f \"/var/jenkins_home/.ssh/known_hosts
+ssh-keygen -f \"/var/jenkins_home/.ssh/known_hosts\" -R remote_host
+ssh-keygen -f "/var/jenkins_home/.ssh/known_hosts" -R remote_host
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+echo $ANSIBLE_SSH_CONTROL_PATH
+echo $ANSIBLE_SSH_CONTROL_PATH_DIR
+env
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+mv -R /var/jenkins_home/.ansible/ /tmp/
+mv /var/jenkins_home/.ansible/ /tmp/ -R
+mv /var/jenkins_home/.ansible/ /tmp/
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+cat /var/jenkins_home/.ansible/cp/9be40b63dc.bShuttljM3uO3FLP
+cat /var/jenkins_home/.ansible/cp/9be40b63dc.bShuttljM3uO3FLP
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+cat /var/jenkins_home/ansible/hosts
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1
+ansible-connection 
+ansible-config --help
+ansible-config list
+ansible-config list |grep path_max
+ansible-config list |grep _max
+ansible-config list |grep _MAX
+ansible-config list |grep _MAX -a5 -b5
+ansible-config --help
+ansible-config view
+sudo ansible-config view
+sudo su
+ansible --help
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping web1 -vvv
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+ansible -i /var/jenkins_home/ansible/hosts -m ping test1
+docker ps
+ls -la
+cd ..
+ls -la
+id
+docker ps
+exit
+docker ps
+docker ps
+exit
+docker ps
+exit
+docker ps
+id
+docker ps
+exit
+docker ps
+ls -la /var/run/docker.sock 
+docker ps
+docker images

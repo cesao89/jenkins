@@ -2,14 +2,15 @@ version: '3'
 services:
   jenkins:
     container_name: jenkins
-    image: jenkins-ansible
+    image: jenkins/docker
     build:
-      context: jenkins-ansible
+      context: pipeline
     ports:
       - "8080:8080"
     volumes:
       - "$PWD/jenkins_home:/var/jenkins_home"
       - "$PWD/keys/remote-key:/tmp/remote-key"
+      - "/var/run/docker.sock:/var/run/docker.sock"
     networks:
       - net
 
@@ -43,18 +44,18 @@ services:
     networks:
       - net
 
-  git:
-    container_name: git-server
-    image: 'gitlab/gitlab-ce:latest'
-    hostname: 'gitlab.example.com'
-    ports:
-      - '8090:80'
-    volumes:
-      - '/srv/gitlab/config:/etc/gitlab'
-      - '/srv/gitlab/logs:/var/log/gitlab'
-      - '/srv/gitlab/data:/var/opt/gitlab'
-    networks:
-      - net
+# //  git:
+# //    container_name: git-server
+# //    image: 'gitlab/gitlab-ce:latest'
+# //    hostname: 'gitlab.example.com'
+# //    ports:
+# //      - '8090:80'
+# //    volumes:
+# //      - '/srv/gitlab/config:/etc/gitlab'
+# //      - '/srv/gitlab/logs:/var/log/gitlab'
+# //      - '/srv/gitlab/data:/var/opt/gitlab'
+# //    networks:
+# //      - net
 
 networks:
   net:
